@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: cornsilk;
+    text-shadow: 0.2rem 0.2rem 0.2rem rgb(126, 126, 113);
+    font-size: 4rem;
+
+    text-align: center;
+
+    margin: 4rem;
+}
+
+#contenedor-general {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    margin: auto;
+}
+
+#contenedor-conversor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: space-between;
+
+    width: 40rem;
+
+    background-color: cornsilk;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem rgb(1, 124, 124);
+
+    padding: 1rem;
+
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3rem;
+    color: cadetblue;
+    text-shadow: 0.05rem 0.05rem 0.05rem rgb(126, 126, 113);
+
+    padding: 1rem 0rem;
+}
+
+.color-rgb {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: cadetblue;
+    text-shadow: 0.05rem 0.05rem 0.05rem rgb(126, 126, 113);
+
+    padding: 0.2rem;
+}
+
+.color-input {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(56, 56, 56);
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+
+    margin: auto;
+}
+
+.submit {
+    background-color: cadetblue;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgb(96, 99, 99);
+    color: cornsilk;
+
+    padding: 0.5rem;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.submit:hover {
+    background-color: rgb(77, 134, 136);
+}
+
+
+#contenedor-resultado{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: space-between;
+
+    width: 40rem;
+
+    background-color: cornsilk;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem rgb(1, 124, 124);
+
+    padding: 1rem;
+
+    margin: auto;
+}
+
+#contenedor-resultado p{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(56, 56, 56);
+
+    padding: 1rem 0rem;
+    margin: auto;
+}
+
+
+.hidden{
+    opacity: 0;
+}
+
+@media (max-width: 640px) {
+
+    #contenedor-conversor {
+        width: 20rem;
+    }
+
+    #contenedor-resultado{
+        width: 20rem;
+    }
+
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+
+    #contenedor-conversor {
+        width: 30rem;
+    }
+
+    #contenedor-resultado{
+        width: 30rem;
+    }
+
+}

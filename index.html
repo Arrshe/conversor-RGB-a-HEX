@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>RGB to HEX</title>
+</head>
+<body>
+    <h1>CONVERSOR DE RGB A HEXADECIMAL</h1>
+    <section id="contenedor-general">
+        <div id="contenedor-conversor">
+            <h2>RGB a HEX</h2>
+
+            <label for="red" class="color-rgb">R</label>
+            <input type="text" class="color-input" id="red">
+    
+            <label for="green" class="color-rgb">G</label>
+            <input type="text" class="color-input" id="green">
+    
+            <label for="blue" class="color-rgb">B</label>
+            <input type="text" class="color-input" id="blue">
+    
+            <button type="submit" class="color-rgb" class="submit" id="submitConversor">Submit</button>
+        </div>
+    </section>
+    <section id="contenedor-resultado" class="hidden">
+            
+        <button type="submit" class="submit" id="volver">Atrás</button>
+    </section>
+    <script src="/js/desplegar-esconder-contenedores.js"></script>
+    <script src="/js/convertidor-rgb-to-hex.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
