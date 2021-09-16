@@ -1,15 +1,9 @@
-function esconderContenedorConversor(){
-    let esconderConversor = document.getElementById('contenedor-conversor').classList.add("hidden");
+//función para que desaparezca el contenedor del conversor
+function esconderContenedorConversor() {
+    let esconderConversor2 = document.getElementById('contenedor-conversor').style.display = "none";
 }
 
-function desplegarContenedorConversor(){
-    let desplegarConversor = document.getElementById('contenedor-conversor').classList.remove("hidden");
-}
-
-function desplegarContenedorResultado(){
+//función para mostrar el contenedor del resultado
+function desplegarContenedorResultado() {
     let desplegarResultado = document.getElementById('contenedor-resultado').classList.remove("hidden");
-}
-
-function esconderContenedorResultado(){
-    let esconderConversor = document.getElementById('contenedor-resultado').classList.add("hidden");
 }

@@ -78,21 +78,6 @@ h2 {
     margin: auto;
 }
 
-.submit {
-    background-color: cadetblue;
-    box-shadow: 0.2rem 0.2rem 0.2rem rgb(96, 99, 99);
-    color: cornsilk;
-
-    padding: 0.5rem;
-    margin: auto;
-    transition: 0.2s;
-}
-
-.submit:hover {
-    background-color: rgb(77, 134, 136);
-}
-
-
 #contenedor-resultado{
     display: flex;
     flex-direction: column;
